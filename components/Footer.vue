@@ -21,6 +21,7 @@
             class="border-0 bg-gray-100 rounded mr-4 border border-gray-400 focus:outline-none focus:border-green-500 text-base px-4 lg:w-full xl:w-1/3 w-2/4 md:w-full"
             placeholder="Email"
             type="email"
+            name="email"
             required="required"
           />
           <button
