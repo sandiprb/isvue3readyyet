@@ -1,6 +1,6 @@
 <template>
   <section class="text-gray-700 body-font">
-    <div class="container px-5 lg:py-24  mx-auto">
+    <div class="container px-5 lg:py-24 mx-auto">
       <div class="flex flex-col text-center w-full mb-12">
         <h1 class="sm:text-3xl text-2xl font-medium title-font text-gray-900">
           Status of Major Framework Parts
@@ -18,10 +18,7 @@
                 <div
                   class="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full text-white flex-shrink-0"
                 >
-                  <img
-                    src="https://image.flaticon.com/icons/png/512/25/25231.png"
-                    alt="github logo"
-                  />
+                  <img src="@/assets/img/github.svg" alt="github logo" />
                 </div>
                 <h2 class="text-gray-900 text-lg title-font font-medium">
                   {{ item.title }}

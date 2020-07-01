@@ -1,6 +1,6 @@
 <template>
   <img
-    src="https://cli.vuejs.org/favicon.png"
+    src="@/assets/img/vue.png"
     alt="vue logo"
     style="width: 100px;"
     class="mx-auto"

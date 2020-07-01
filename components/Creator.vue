@@ -11,11 +11,7 @@
         target="_blank"
         class="flex items-center text-xs"
       >
-        <img
-          src="https://image.flaticon.com/icons/png/512/25/25231.png"
-          alt="github logo"
-          class="w-6 mr-1"
-        />
+        <img src="@/assets/img/github.svg" alt="github logo" class="w-6 mr-1" />
         Source Code
       </a>
     </div>

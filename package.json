@@ -2,6 +2,7 @@
   "name": "isvue3readyyet",
   "version": "1.0.0",
   "private": true,
+  "description": "Is Vue3 Ready Yet?",
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",
@@ -12,7 +13,8 @@
   "dependencies": {
     "@nuxt/content": "^1.3.2",
     "@nuxtjs/pwa": "^3.0.0-beta.20",
-    "nuxt": "^2.13.0"
+    "nuxt": "^2.13.0",
+    "nuxt-seo": "^1.3.1"
   },
   "devDependencies": {
     "@nuxtjs/tailwindcss": "^2.0.0",

@@ -14,17 +14,12 @@ export default {
    ** See https://nuxtjs.org/api/configuration-head
    */
   head: {
-    title: process.env.npm_package_name || '',
+    title: 'Is Vue3 Ready Yet?',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      {
-        hid: 'description',
-        name: 'description',
-        content: process.env.npm_package_description || '',
-      },
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+    link: [{ rel: 'icon', type: 'image/x-icon', href: '/vue.png' }],
   },
   /*
    ** Global CSS
@@ -54,7 +49,20 @@ export default {
     '@nuxtjs/pwa',
     // Doc: https://github.com/nuxt/content
     '@nuxt/content',
+    'nuxt-seo',
   ],
+
+  seo: {
+    name: 'isVue3ReadyYet?',
+    title: 'Is Vue3 Ready Yet?',
+    templateTitle: '%name% - %title%',
+    description: 'Is Vue3 Ready Yet?',
+    author: 'sandip_rb',
+    twitter: {
+      creator: 'sandip_rb',
+    },
+    image: 'https://cli.vuejs.org/favicon.png',
+  },
   /*
    ** Content module configuration
    ** See https://content.nuxtjs.org/configuration
