@@ -60,6 +60,7 @@ export default {
     author: 'sandip_rb',
     twitter: {
       creator: 'sandip_rb',
+      image: 'https://cli.vuejs.org/favicon.png',
     },
     image: 'https://cli.vuejs.org/favicon.png',
   },
