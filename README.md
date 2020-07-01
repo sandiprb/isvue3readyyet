@@ -1,5 +1,7 @@
 # isvue3readyyet
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/231e056d-9a11-4d1e-902e-da0279f6b043/deploy-status)](https://app.netlify.com/sites/isvue3readyyet/deploys)
+
 ## Build Setup
 
 ```bash

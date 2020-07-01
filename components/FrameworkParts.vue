@@ -12,7 +12,7 @@
           v-for="(item, index) in content"
           :key="`item-${index}`"
         >
-          <div class="flex rounded-lg  bg-gray-100 p-8 flex-col">
+          <div class="flex rounded-lg bg-gray-100 p-8 flex-col">
             <a :href="item.github" target="_blank">
               <div class="flex items-center mb-3">
                 <div
@@ -28,17 +28,17 @@
                 </h2>
               </div>
             </a>
-             <a :href="item.npm" rel="nofollow" class="mb-4"  target="_blank"
-                ><img
-                  :src="item.badge"
-                  style="max-width: 100%;"
-              /></a>
+            <a :href="item.npm" rel="nofollow" class="mb-4" target="_blank"
+              ><img :src="item.badge" style="max-width: 100%;"
+            /></a>
 
             <div class="flex-grow">
               <p class="leading-relaxed text-base" v-html="item.content"></p>
-              <a class="mt-3 text-green-500 inline-flex items-center text-lg"
-              :href="item.RFCs" v-show="item.RFCs"
-              target="_blank"
+              <a
+                class="mt-3 text-green-500 inline-flex items-center text-lg"
+                :href="item.RFCs"
+                v-show="item.RFCs"
+                target="_blank"
                 >RFCs
                 <svg
                   fill="none"
@@ -55,7 +55,6 @@
             </div>
           </div>
         </div>
-      
       </div>
     </div>
   </section>

@@ -1,22 +1,22 @@
 /*
-** TailwindCSS Configuration File
-**
-** Docs: https://tailwindcss.com/docs/configuration
-** Default: https://github.com/tailwindcss/tailwindcss/blob/master/stubs/defaultConfig.stub.js
-*/
+ ** TailwindCSS Configuration File
+ **
+ ** Docs: https://tailwindcss.com/docs/configuration
+ ** Default: https://github.com/tailwindcss/tailwindcss/blob/master/stubs/defaultConfig.stub.js
+ */
 module.exports = {
   theme: {
     container: {
-      center: true
+      center: true,
     },
-    extend :{
+    extend: {
       colors: {
-        secondary: '#6a8bad'
+        secondary: '#6a8bad',
       },
       fontSize: {
         '12x': '12rem',
-      }
-    }
+      },
+    },
   },
   variants: {},
   plugins: [],
@@ -28,7 +28,7 @@ module.exports = {
       'layouts/**/*.vue',
       'pages/**/*.vue',
       'plugins/**/*.js',
-      'nuxt.config.js'
-    ]
-  }
+      'nuxt.config.js',
+    ],
+  },
 }
