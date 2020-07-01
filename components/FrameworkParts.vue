@@ -53,6 +53,25 @@
           </div>
         </div>
       </div>
+
+      <a
+        href="https://github.com/vuejs/rfcs/issues/183"
+        target="_blank"
+        class="w-56 mt-12 mx-auto bg-transparent hover:bg-green-500 text-green-700 font-semibold hover:text-white py-2 px-4 border border-green-500 hover:border-transparent rounded flex items-center"
+      >
+        See Official Update
+        <svg
+          fill="none"
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          class="w-4 h-4 ml-2"
+          viewBox="0 0 24 24"
+        >
+          <path d="M5 12h14M12 5l7 7-7 7"></path>
+        </svg>
+      </a>
     </div>
   </section>
 </template>
