@@ -1,6 +1,6 @@
 <template>
   <section class="text-gray-700 body-font">
-    <div class="container px-5 py-24 mx-auto">
+    <div class="container px-5 lg:py-24  mx-auto">
       <div class="flex flex-col text-center w-full mb-12">
         <h1 class="sm:text-3xl text-2xl font-medium title-font text-gray-900">
           Status of Major Framework Parts

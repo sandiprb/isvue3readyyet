@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="text-center pt-24 pb-24 container">
+    <div class="text-center py-16 md:py-24 container">
       <Logo />
       <div class="text-3xl text-center text-secondary">
         is Vue3 ready yet?
