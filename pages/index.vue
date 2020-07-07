@@ -13,11 +13,11 @@
 <script>
 export default {
   async asyncData(){
-    let status="NO";
+    let status='NO';
     try{
       const response = await fetch('https://cors-anywhere.herokuapp.com/https://github.com/vuejs/vue-next/releases/tag/v3.0.0')
       if (response.status === 200){
-        status = "YES"
+        status = 'YES';
       }
     }
     catch(e){}
